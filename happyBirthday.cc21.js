@@ -17,7 +17,7 @@ var HappyBirthday = function(birthdayName, birthdayAge, birthdayAudio) {
     }
     this.animateBackgroundColor = function(object, color, time) {
         $(object).animate({
-            "backgroundColor": color
+            "backgroundColor": black
         }, time);
     }
     this.animateGrowObject = function(object, px, time) {
